@@ -11,7 +11,7 @@ const BALL_DEFAULT_SPEED = 3;
 
 const BAR_DEFAULT_WIDTH = 120;
 const BAR_DEFAULT_HEIGHT = 10;
-const BAR_DEFAULT_SPEED = 50;
+const BAR_DEFAULT_SPEED = 20;
 const BAR_BOTTOM_DEFAULT_POSITION_X = GAMEBOARD_WIDTH / 2;
 const BAR_BOTTOM_DEFAULT_POSITION_Y = GAMEBOARD_HEIGHT - BAR_DEFAULT_HEIGHT;
 const BAR_TOP_DEFAULT_POSITION_X = GAMEBOARD_WIDTH / 2;
@@ -20,7 +20,8 @@ const BAR_LEFT_DEFAULT_POSITION_X = 0;
 const BAR_LEFT_DEFAULT_POSITION_Y = GAMEBOARD_HEIGHT / 2;
 const BAR_RIGHT_DEFAULT_POSITION_X = GAMEBOARD_WIDTH - BAR_DEFAULT_HEIGHT;
 const BAR_RIGHT_DEFAULT_POSITION_Y = GAMEBOARD_HEIGHT / 2;
-
+var num=0;
+var key=0;
 let Ball = function () {
     this.x = BALL_DEFAULT_POSITION_X;
     this.y = BALL_DEFAULT_POSITION_Y;
@@ -123,7 +124,7 @@ let Ball = function () {
             }
         }
         if (isTopWall || isBottomWall || isLeftWal || isRightWall) {
-            alert("THUA");
+            alert("Làm sao mà thắng được hả Đông!!! Không lên được lv 3 đâu");
             score = 0;
             lv = 1;
             this.y = BALL_DEFAULT_POSITION_Y;
@@ -229,7 +230,6 @@ let GameBoard = function () {
     };
     this.drawGame = function (ball, barBottom, barTop, barLeft, barRight) {
         let ctx = document.getElementById(this.elementId).getContext("2d");
-        this.image.src = "background.jpg";
         ctx.drawImage(this.image,0,0);
         ball.drawBall(ctx);
         barBottom.drawBar(ctx);
@@ -255,31 +255,33 @@ let GameBoard = function () {
     };
 };
 
-function moveBar(event) {
-    switch (event.keyCode) {
-        case 37: {
-            barBottom.moveLeft(gameBoard);
-            barTop.moveRight(gameBoard);
-            break;
+function moveBar(key,num) {
+    if(num==1) {
+        switch (key) {
+            case 37: {
+                barBottom.moveLeft(gameBoard);
+                barTop.moveRight(gameBoard);
+                break;
+            }
+            case 38: {
+                barRight.moveUp(gameBoard);
+                barLeft.moveDown(gameBoard);
+                break;
+            }
+            case 39: {
+                barBottom.moveRight(gameBoard);
+                barTop.moveLeft(gameBoard);
+                break;
+            }
+            case 40: {
+                barRight.moveDown(gameBoard);
+                barLeft.moveUp(gameBoard);
+                break;
+            }
         }
-        case 38: {
-            barRight.moveUp(gameBoard);
-            barLeft.moveDown(gameBoard);
-            break;
-        }
-        case 39: {
-            barBottom.moveRight(gameBoard);
-            barTop.moveLeft(gameBoard);
-            break;
-        }
-        case 40: {
-            barRight.moveDown(gameBoard);
-            barLeft.moveUp(gameBoard);
-            break;
-        }
+        gameBoard.clear();
+        gameBoard.drawGame(ball, barBottom, barTop, barLeft, barRight);
     }
-    gameBoard.clear();
-    gameBoard.drawGame(ball, barBottom, barTop, barLeft, barRight);
 }
 
 function moveBall() {
@@ -289,6 +291,19 @@ function moveBall() {
     gameBoard.drawGame(ball, barBottom, barTop, barLeft, barRight);
     gameBoard.drawScore();
     gameBoard.drawLv();
+    moveBar(key,num);
     requestAnimationFrame(moveBall);
 }
- document.addEventListener('keydown', this.moveBar);
+document.addEventListener('keydown', move);
+document.addEventListener('keyup', stop);
+function move(event)
+{
+    key=event.keyCode;
+   num=1;
+}
+function stop(event)
+{
+    key=event.keyCode;
+    num=0;
+}
+
