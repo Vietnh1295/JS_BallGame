@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BouncingBallGame</title>
+</head>
+<body>
+<form id="board"></form>
+<audio id = "audio" src="sound.mp3"></audio>
+<script src="script.js"></script>
+<script>
+    let gameBoard = new GameBoard();
+    let ball = new Ball();
+    let barBottom = new Bar(BAR_BOTTOM_DEFAULT_POSITION_X,BAR_BOTTOM_DEFAULT_POSITION_Y,BAR_DEFAULT_WIDTH,BAR_DEFAULT_HEIGHT);
+    let barTop = new Bar(BAR_TOP_DEFAULT_POSITION_X,BAR_TOP_DEFAULT_POSITION_Y,BAR_DEFAULT_WIDTH,BAR_DEFAULT_HEIGHT);
+    let barLeft = new Bar(BAR_LEFT_DEFAULT_POSITION_X,BAR_LEFT_DEFAULT_POSITION_Y,BAR_DEFAULT_HEIGHT,BAR_DEFAULT_WIDTH);
+    let barRight = new Bar(BAR_RIGHT_DEFAULT_POSITION_X,BAR_RIGHT_DEFAULT_POSITION_Y,BAR_DEFAULT_HEIGHT,BAR_DEFAULT_WIDTH);
+    let score = 0;
+    let lv = 1;
+    gameBoard.drawGameBoard();
+    moveBall();
+</script>
+</body>
+</html>

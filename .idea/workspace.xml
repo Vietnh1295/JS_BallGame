@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="68e63ac8-9212-4080-8864-2911dac34082" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="BouncingBallGame" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3614">
+              <caret line="139" column="48" selection-start-line="139" selection-start-column="48" selection-end-line="139" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>550</find>
+      <find>alert</find>
+      <find>brick</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/script.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BouncingBallGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BouncingBallGame" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\HTML\BouncingBallGame" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\HTML\BouncingBallGame" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BouncingBallGame/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.script.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68e63ac8-9212-4080-8864-2911dac34082" name="Default Changelist" comment="" />
+      <created>1560591633446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560591633446</updated>
+      <workItem from="1560591634591" duration="198000" />
+      <workItem from="1560592130729" duration="381000" />
+      <workItem from="1560607799387" duration="281000" />
+      <workItem from="1560733456266" duration="403000" />
+      <workItem from="1560733866752" duration="2835000" />
+      <workItem from="1560772962372" duration="3048000" />
+      <workItem from="1560819867810" duration="971000" />
+      <workItem from="1560821720185" duration="5962000" />
+      <workItem from="1560847495981" duration="942000" />
+      <workItem from="1560852707188" duration="5000" />
+      <workItem from="1560858901098" duration="2828000" />
+      <workItem from="1560865600193" duration="57000" />
+      <workItem from="1560901824669" duration="192000" />
+      <workItem from="1560905740082" duration="5153000" />
+      <workItem from="1560914967945" duration="1552000" />
+      <workItem from="1560926498125" duration="452000" />
+      <workItem from="1560926964055" duration="1808000" />
+      <workItem from="1560930925117" duration="878000" />
+      <workItem from="1560932535028" duration="108000" />
+      <workItem from="1560932693990" duration="1201000" />
+      <workItem from="1560937099696" duration="7000" />
+      <workItem from="1560937484418" duration="708000" />
+      <workItem from="1561016563583" duration="606000" />
+      <workItem from="1561022881778" duration="69000" />
+      <workItem from="1561024980168" duration="9000" />
+      <workItem from="1561025009104" duration="10000" />
+      <workItem from="1561033127080" duration="84000" />
+      <workItem from="1561436607207" duration="80000" />
+      <workItem from="1561446264383" duration="1787000" />
+      <workItem from="1561450929668" duration="1988000" />
+      <workItem from="1561470524552" duration="277000" />
+      <workItem from="1561510960539" duration="3209000" />
+      <workItem from="1561516625297" duration="823000" />
+      <workItem from="1561508916663" duration="75000" />
+      <workItem from="1561510236134" duration="7613000" />
+      <workItem from="1561598327446" duration="3222000" />
+      <workItem from="1561601805625" duration="184000" />
+      <workItem from="1561602001115" duration="5650000" />
+      <workItem from="1561638169707" duration="2289000" />
+      <workItem from="1561679092040" duration="242000" />
+      <workItem from="1561682979071" duration="582000" />
+      <workItem from="1561692711013" duration="681000" />
+      <workItem from="1561705468169" duration="17000" />
+      <workItem from="1561708683222" duration="1828000" />
+      <workItem from="1561775728049" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="93976000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47419354" weight="0.2170706" />
+      <window_info id="Structure" order="1" sideWeight="0.5258064" side_tool="true" visible="true" weight="0.2170706" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32982087" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../funnycircle/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3614">
+          <caret line="139" column="48" selection-start-line="139" selection-start-column="48" selection-end-line="139" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
