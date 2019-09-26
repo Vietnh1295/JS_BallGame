@@ -69,12 +69,13 @@ let Ball = function () {
             document.getElementById("audio").play();
             this.speedX = -this.speedX;
             score ++;
+            lv++;
             if(score%5===0&&score>=5){
                 barBottom.setSpeed(barBottom.getSpeed()+25);
                 barTop.setSpeed(barTop.getSpeed()+25);
                 barLeft.setSpeed(barLeft.getSpeed()+25);
                 barRight.setSpeed(barRight.getSpeed()+25);
-                lv++;
+//                 lv++;
                 if(barBottom.getWidth()>=barBottom.getWidth()/3){
                     barBottom.setWidth(barBottom.getWidth()*0.9);
                 }
@@ -115,7 +116,7 @@ let Ball = function () {
                 if(barRight.getHeight()>=barRight.getHeight()/3){
                     barRight.setHeight(barRight.getHeight()*0.9);
                 }
-                lv++;
+                
                 if(this.speedY<0){
                     this.speedY-=2;
                 }else {
