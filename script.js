@@ -247,7 +247,7 @@ let GameBoard = function () {
         let ctx = document.getElementById(this.elementId).getContext("2d");
         ctx.font = "25px Arial";
         ctx.fillStyle = "#dd2012";
-        ctx.fillText("Lever: " + lv, 8, 50);
+        ctx.fillText("Lever: " + 50, 8, 50);
     };
     this.clear = function () {
         let ctx = document.getElementById(this.elementId).getContext("2d");
