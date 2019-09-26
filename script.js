@@ -7,7 +7,7 @@ const GAMEBOARD_ID = "gameboard";
 const BALL_DEFAULT_POSITION_X = 250;
 const BALL_DEFAULT_POSITION_Y = 250;
 const BALL_DEFAULT_RADIUS = 10;
-const BALL_DEFAULT_SPEED = 3;
+const BALL_DEFAULT_SPEED = 2;
 
 const BAR_DEFAULT_WIDTH = 120;
 const BAR_DEFAULT_HEIGHT = 10;
@@ -91,7 +91,7 @@ let Ball = function () {
                 if(this.speedX<0){
                     this.speedX-=2;
                 }else {
-                    this.speedX+=2;
+                    this.speedX=2;
                 }
             }
         }
@@ -105,22 +105,22 @@ let Ball = function () {
                 barLeft.setSpeed(barLeft.getSpeed()+25);
                 barRight.setSpeed(barRight.getSpeed()+25);
                 if(barBottom.getWidth()>=barBottom.getWidth()/3){
-                    barBottom.setWidth(barBottom.getWidth()*0.9);
+                    barBottom.setWidth(barBottom.getWidth()*1);
                 }
                 if(barTop.getWidth()>=barTop.getWidth()/3){
-                    barTop.setWidth(barTop.getWidth()*0.9);
+                    barTop.setWidth(barTop.getWidth()*1);
                 }
                 if(barLeft.getHeight()>=barLeft.getHeight()/3){
-                    barLeft.setHeight(barLeft.getHeight()*0.9);
+                    barLeft.setHeight(barLeft.getHeight()*1);
                 }
                 if(barRight.getHeight()>=barRight.getHeight()/3){
-                    barRight.setHeight(barRight.getHeight()*0.9);
+                    barRight.setHeight(barRight.getHeight()*1);
                 }
                 
                 if(this.speedY<0){
                     this.speedY-=2;
                 }else {
-                    this.speedY+=2;
+                    this.speedY=2;
                 }
             }
         }
