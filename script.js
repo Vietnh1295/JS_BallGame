@@ -125,7 +125,7 @@ let Ball = function () {
             }
         }
         if (isTopWall || isBottomWall || isLeftWal || isRightWall) {
-            alert("Làm sao mà thắng được anh Hiếu!!! Không lên được lv 10 đâu");
+            alert("Làm sao mà thắng được Uy!!! Không lên được lv 10 đâu");
             score = 0;
             lv = 1;
             this.y = BALL_DEFAULT_POSITION_Y;
@@ -248,7 +248,7 @@ let GameBoard = function () {
         let ctx = document.getElementById(this.elementId).getContext("2d");
         ctx.font = "25px Arial";
         ctx.fillStyle = "#dd2012";
-        ctx.fillText("Lever: " + 50, 8, 50);
+        ctx.fillText("Lever: " + lv, 8, 50);
     };
     this.clear = function () {
         let ctx = document.getElementById(this.elementId).getContext("2d");
