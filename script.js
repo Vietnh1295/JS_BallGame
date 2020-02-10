@@ -125,7 +125,7 @@ let Ball = function () {
             }
         }
         if (isTopWall || isBottomWall || isLeftWal || isRightWall) {
-            alert("Làm sao mà thắng được Uy!!! Không lên được lv 10 đâu");
+            alert("Làm sao mà thắng được anh Lâm!!! Không lên được lv 10 đâu");
             score = 0;
             lv = 1;
             this.y = BALL_DEFAULT_POSITION_Y;
